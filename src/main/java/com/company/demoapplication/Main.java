@@ -55,7 +55,7 @@ public class Main {
           for example expensive logging or forgetting to re-use serializers.
          */
         if (args.length > 0 && args[0].equals("with-issues")) {
-            logger().info("Running with performance issues.");
+            logger().info("Running Application with performance issues.");
 
             withIssues = true;
             reuseMapper = false;
